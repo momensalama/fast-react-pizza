@@ -13,7 +13,7 @@ click on the to [see the demo](https://fast-pizza-restaurant.netlify.app/)
 #### What Is The Tailwind?
 A utility-first CSS framework packed with utility classes like flex, text-center, and rotate-90 that can be composed to build any design, directly in your markup (HTML or JSX)
 #### Why I used Tailwind For Styling?
-* the main reason to use Tailwind is to know and try it. I used Bootstrap for some projects but didn't like it,
+* the main reason to use Tailwind is to learn and try it. I used Bootstrap for some projects but didn't like it,
 because when you want to style something with a specific scale like font-size: 60rem, you can't do that because Bootstrap limits you in static classes.
 so, I want to use Tailwind and liked it. 
 it provides a lot of classes than Bootstrap and if you want to style something with a specific scale and there is no class for that you can make your own class or use 
