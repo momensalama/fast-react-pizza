@@ -20,7 +20,8 @@ click on the link to [see the demo](https://fast-pizza-restaurant.netlify.app/)
 * make the order a priority to get the order faster.
 * Tracking the order with the order id.
 ### Packages
-**Tailwind** for styling the project
+* **Tailwind** for styling the project
+* **Redux**
 #### Overview
 fast-react-pizza project is a small pizza restaurant that orders pizzas and gets them delivered to people's homes.
 they can track their orders with order id and make order priority if they want to get orders faster
