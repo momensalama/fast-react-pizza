@@ -1,7 +1,7 @@
 # Project Name
 fast-react-pizza
 ## Description
-fast-react-pizza is a pizza restaurant that orders pizzas and gets them delivered to people's home
+fast-react-pizza is a pizza restaurant that orders pizzas and gets them delivered to people's homes.
 ## Live Demo
 click on the link to [see the demo](https://fast-pizza-restaurant.netlify.app/)
 ## Setup
