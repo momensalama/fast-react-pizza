@@ -5,7 +5,7 @@ function SearchOrder() {
   const [query, setQuery] = useState("");
   const navgiate = useNavigate();
 
-  function handleSubmit(e) {
+  function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
     if (!query) return;
     navgiate(`/order/${query}`);

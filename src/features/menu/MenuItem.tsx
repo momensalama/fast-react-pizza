@@ -4,7 +4,19 @@ import { formatCurrency } from "../../utils/helpers";
 import { addItem, getCurrentQuantityById } from "../cart/cartSlice";
 import DeleteItem from "../cart/DeleteItem";
 import UpdateItemQuantity from "../cart/UpdateItemQuantity";
-function MenuItem({ pizza }) {
+
+interface MenuItemProps {
+  pizza: {
+    id: number;
+    name: string;
+    unitPrice: number;
+    ingredients: string[];
+    soldOut: boolean;
+    imageUrl: string;
+  };
+}
+
+function MenuItem({ pizza }: MenuItemProps) {
   const { id, name, unitPrice, ingredients, soldOut, imageUrl } = pizza;
   const dispatch = useDispatch();
   const currentQuantity = useSelector(getCurrentQuantityById(id));
